@@ -7,78 +7,76 @@
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
-    body{
-      margin:0;
-      min-height:100vh;
-      display:flex;
-      justify-content:center;   /* horizontal center */
-      align-items:flex-start;   /* start at top */
-      background:#0f1115;
-      color:#f2f2f2;
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-      padding:48px 16px;
-      line-height:1.6;
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background: #0f1115;
+      color: #f2f2f2;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      padding: 48px 16px;
+      line-height: 1.7;
     }
-    main{
-      width:min(760px, 100%);
-      background:#171a21;
-      border:1px solid rgba(255,255,255,.08);
-      border-radius:14px;
-      padding:28px 22px;
-      box-shadow:0 8px 30px rgba(0,0,0,.35);
+    main {
+      width: min(760px, 100%);
+      background: #171a21;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      padding: 32px 28px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.35);
     }
-    h1{ margin:0 0 14px; font-size:24px; font-weight:650; }
-    h2{ margin:22px 0 10px; font-size:16px; font-weight:650; opacity:.95; }
-    p{ margin:10px 0; opacity:.95; }
-    ul{ margin:10px 0 0 18px; }
-    code{
-      background:rgba(255,255,255,.06);
-      padding:2px 6px;
-      border-radius:6px;
+    h1 { margin: 0 0 6px; font-size: 26px; font-weight: 700; }
+    .subtitle { opacity: .5; font-size: 14px; margin-bottom: 28px; }
+    h2 { margin: 28px 0 10px; font-size: 16px; font-weight: 650; }
+    p { margin: 8px 0; opacity: .92; }
+    ul { margin: 8px 0 0 20px; opacity: .92; }
+    li { margin-bottom: 4px; }
+    .box {
+      margin: 16px 0;
+      padding: 16px;
+      border-radius: 12px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
     }
-    a{ color:#4da3ff; text-decoration:none; }
-    .box{
-      margin:14px 0 0;
-      padding:14px 14px;
-      border-radius:12px;
-      background:rgba(255,255,255,.04);
-      border:1px solid rgba(255,255,255,.08);
+    code {
+      background: rgba(255,255,255,.06);
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 14px;
     }
-    footer{
-      margin-top:22px;
-      font-size:13px;
-      opacity:.7;
-    }
+    a { color: #4da3ff; text-decoration: none; }
+    footer { margin-top: 32px; font-size: 13px; opacity: .5; }
   </style>
 </head>
 <body>
   <main>
-    <h1>Account Deletion – Jaan</h1>
-    <p>Users can request deletion of their account at any time.</p>
+    <h1>Account Deletion</h1>
+    <p class="subtitle">Jaan – Personal AI Agent &nbsp;·&nbsp; Jaan Intelligence</p>
 
+    <p>You can request the deletion of your account and all associated data at any time. We will process your request within 30 days.</p>
+
+    <h2>How to request deletion</h2>
     <div class="box">
-      <strong>How to request deletion</strong>
-      <p>
-        Please email <code>support@yourdomain.com</code> from the address used to sign in (Google OAuth),
-        and include the subject line <code>Account deletion request</code>.
-      </p>
+      <p>Send an email to <strong>support@jaan-intelligence.com</strong> with the subject line:</p>
+      <p><code>Account deletion request</code></p>
+      <p>Please send it from the email address associated with your account.</p>
     </div>
 
     <h2>What will be deleted</h2>
     <ul>
-      <li>Google account identifier</li>
-      <li>Email address</li>
-      <li>Any app-related account data stored on our systems (if applicable)</li>
+      <li>Your account identifier</li>
+      <li>Any personal data stored on our systems</li>
+      <li>All app-related data associated with your account</li>
     </ul>
 
     <h2>Data retention</h2>
-    <p>
-      We permanently delete personal data within 30 days of receiving the request.
-      We do not sell personal data and do not share it with third parties except where required to provide the service
-      (e.g., authentication providers).
-    </p>
+    <p>We permanently delete personal data within 30 days of receiving your request. We do not sell personal data and do not share it with third parties.</p>
 
-    <footer>© 2026 Jaan</footer>
+    <p><a href="./index.html">← Back to Privacy Policy</a></p>
+
+    <footer>© 2026 Jaan Intelligence</footer>
   </main>
 </body>
 </html>
